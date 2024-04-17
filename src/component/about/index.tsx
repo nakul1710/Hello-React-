@@ -1,7 +1,7 @@
 import React from "react";
-
-function About(props:any){
-    console.log(props.discription,"===");
+import config from '../../config';
+function About(){
+    console.log(config.discription,"===");
     return(
 <div className="About" id="About">
     <div className="jumbotron">
@@ -12,7 +12,7 @@ function About(props:any){
               fontWeight: 500,
               fontSize: "18px"
             }}>
-             {props.discription}   
+             {config.discription}   
             </p>
         </div>
 

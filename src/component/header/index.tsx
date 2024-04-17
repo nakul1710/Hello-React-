@@ -1,12 +1,13 @@
 import React from 'react';
 import './header.css';
+import config from '../../config'
 function Header(){
 return (
   <header className="bg-danger text-light fixed-top">
   <div className="container">
       <div className="row align-items-center">
           <div className="col-md-4">
-              <h1 className="logo">Nakul</h1>
+              <h1 className="logo">{config.information.firstname}</h1>
           </div>
           <div className="col-sm-8">
               <nav className="navbar  navbar-expand-md navbar-dark">
