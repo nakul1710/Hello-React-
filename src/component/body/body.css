@@ -29,31 +29,7 @@
     overflow: visible;
     vertical-align: -0.125em;
 }
-.project{
-    margin-top: 100px;
-    
-}
-.pro-img img{
- display: flex;
- justify-content: center;
 
-}
-.pro-img{
-   display: flex;
-   justify-content: center;
-}
-
-.project .jumbotron h2{
-    text-align: center;
-}
-
-
- .jumbotron img{
-    display: flex;
-    justify-content: center;
-    display: inline-block;
-   
-}
 .gallery h2{
     text-align: center;
 }

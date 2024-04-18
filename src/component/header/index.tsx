@@ -18,16 +18,16 @@ return (
                   <div className="collapse navbar-collapse text-right" id="navbarNav">
                       <ul className="navbar-nav ml-auto text-right">
                           <li className="nav-item">
-                              <a className="nav-link" href="#aboutme">About</a>
+                              <a className="nav-link  text-white" href="#aboutme"><b>About</b></a>
                           </li>
                           <li className="nav-item">
-                              <a className="nav-link" href="#education">Education</a>
+                              <a className="nav-link  text-white" href="#education"><b>Education</b></a>
                           </li>
                           <li className="nav-item">
-                              <a className="nav-link" href="#project">Project</a>
+                              <a className="nav-link  text-white" href="#project"><b>Project</b></a>
                           </li>
                           <li className="nav-item">
-                              <a className="nav-link" href="#gallery">Gallery</a>
+                              <a className="nav-link  text-white" href="#gallery"><b>Gallery</b></a>
                           </li>
 
                       </ul>

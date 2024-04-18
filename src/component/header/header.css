@@ -2,3 +2,22 @@
     background-color: red;
     text-align: center;
   }
+  h1{
+    display: inline-block;
+    text-align: center;
+    margin-top: 20px;
+    
+ }
+ .nav-link{
+   color: white;
+ }
+ .nav-bar{
+    position: fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+ }
+ 
+ .jumbotron{
+margin: 0.5%;
+ }

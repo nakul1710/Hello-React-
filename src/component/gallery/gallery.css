@@ -1,0 +1,24 @@
+.gallery-row {
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  flex-wrap: nowrap;
+  padding: 0 4px;
+}
+.gallery-item {
+  flex: 33%;
+  display: inline-block;
+  flex-wrap: wrap;
+  max-width: 25%;
+  padding: 0 4px;
+    
+}
+
+.gallery-item img {
+    margin-top: 8px;
+    width: 100%;
+}
+
+
+  

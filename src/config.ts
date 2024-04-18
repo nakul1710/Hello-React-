@@ -3,8 +3,8 @@ const config = {
       firstname: "Nakul",
       lastname: "Yadav",
       city: "Khairthal",
-      twitter: "",
-      linkedin: "",
+      twitter: "nakul1705",
+      linkedin: "nakul-yadav-0090032a7",
       github: "nakul1710",
       instagram: "",
       img: "",
@@ -12,7 +12,7 @@ const config = {
     },
     education: 
       [{
-        name: "jecrc",
+        name: "Jecrc",
         url: "https://jaipur.manipal.edu/",
         discription: "Year: 2023-2027 | BTech"
      },{
