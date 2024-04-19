@@ -6,14 +6,18 @@ function Education(){
         <div className="education" id="education">
         <div className="row">
             <div className="col-lg-8 mx-auto">
-                <h2 className="text-center">Education</h2>
+                <h2 className="text-center" style={{
+            color:config.theme.dark,
+        }}>Education</h2>
 
 
                 {config.education.map((value:any,index:any)=>{
                     
                     return(
                         <>
-                        <p className="text-decoration-none"><a href={value.url}
+                        <p className="text-decoration-none"><a  style={{
+         color: config.theme.backgroundColor,
+         }} href={value.url}
                         >{value.name}</a></p>
                 <p>{value.discription}</p>
                 </>
@@ -26,12 +30,16 @@ function Education(){
 
 
 
-                <h2 className="text-center">certificate</h2>
+                <h2  style={{
+            color:config.theme.dark,
+        }} className="text-center">certificate</h2>
                 {config.certificate.map((value:any,index:any)=>{
                     
                     return(
                         <>
-                        <p className="text-decoration-none"><a href={value.url}
+                        <p className="text-decoration-none"><a  style={{
+         color: config.theme.backgroundColor,
+         }} href={value.url}
                         >{value.name}</a></p>
                 <p>{value.discription}</p>
                 </>
@@ -43,12 +51,16 @@ function Education(){
 
 
 
-                <h2 className="text-center m-5">Confrenses and meetups</h2>
+                <h2  style={{
+            color:config.theme.dark,
+        }} className="text-center m-5">Confrenses and meetups</h2>
                 {config.confrenses.map((value:any,index:any)=>{
                     
                     return(
                         <>
-                        <p className="text-decoration-none"><a href={value.url}
+                        <p className="text-decoration-none"><a  style={{
+         color: config.theme.backgroundColor,
+         }} href={value.url}
                         >{value.name}</a></p>
                 <p>{value.discription}</p>
                 </>
@@ -57,12 +69,16 @@ function Education(){
         
                 })}
 
-<h2 className="text-center m-5">Projects</h2>
+<h2  style={{
+            color:config.theme.dark,
+        }} className="text-center m-5">Projects</h2>
                 {config.project.map((value:any,index:any)=>{
                     
                     return(
                         <>
-                        <p className="text-decoration-none"><a href={value.url}
+                        <p className="text-decoration-none"><a  style={{
+         color: config.theme.backgroundColor,
+         }} href={value.url}
                         >{value.name}</a></p>
                 <p>{value.discription}</p>
                 </>

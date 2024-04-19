@@ -3,7 +3,10 @@ import './header.css';
 import config from '../../config'
 function Header(){
 return (
-  <header className="bg-danger text-light fixed-top">
+  <header style={{
+   backgroundColor: config.theme.backgroundColor,
+   color: config.theme.color,
+  }} className=" fixed-top" >
   <div className="container">
       <div className="row align-items-center">
           <div className="col-md-4">

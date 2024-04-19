@@ -5,8 +5,12 @@ import config from '../../config'
 function Hero(){
     return(
         <div className="name" id="name">
-        <h1 className="text-dark ">{config.information.firstname}</h1>
-        <h1 className="text-danger"> {config.information.lastname}</h1>
+        <h1 style={{
+            color:config.theme.dark,
+        }}>{config.information.firstname}</h1>
+        <h1 style={{
+         color: config.theme.backgroundColor,
+         }}> {config.information.lastname}</h1>
         
         {config.information.city.length > 0 && (
          <p className="text-dark m-2"><b>{config.information.city}</b></p>
